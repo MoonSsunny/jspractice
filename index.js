@@ -7,7 +7,6 @@ const contentItems = Array.from(contentsElem.children);
 
 const scrollSpyObserver = new IntersectionObserver(
   (entries) => {
-    // do something
     console.log("observe");
 
     entries.forEach((entry) => {
